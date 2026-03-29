@@ -23,6 +23,14 @@ A set of Claude Code skills for Product Managers at AMEX GBT. These skills accel
 | Sprint Planning | `/sprint-planning` | Plan iterations aligned to the 7-phase lifecycle |
 | Playbook Author | `/playbook-author` | Write AI Playbook content for PMs across the business |
 
+### Advanced Skills
+
+| Skill | Command | What it does |
+|-------|---------|-------------|
+| Product Brainstorm | `/product-brainstorm` | Structured ideation with JTBD, Opportunity Solution Trees, HMW |
+| Risk Assessment | `/risk-assessment` | AI Risk Committee (Phase 6) preparation and documentation |
+| Interview Script | `/interview-script` | User research scripts with Mom Test principles |
+
 ### Background References (auto-loaded)
 
 These load automatically to give Claude context about GBT and the AI project lifecycle. You don't invoke them directly — they just make everything smarter.
@@ -32,7 +40,10 @@ These load automatically to give Claude context about GBT and the AI project lif
 
 ### Agents
 
-- **VP of Product** (`/agent:vp-product`) — An experienced product leader persona for pressure-testing PRDs, metrics and stakeholder framing
+| Agent | Command | What it does |
+|-------|---------|-------------|
+| VP of Product | `/agent:vp-product` | Pressure-test PRDs, metrics and stakeholder framing |
+| AI Team Translator | `/agent:ai-team-translator` | Bridge PM and AI Engineering language in both directions |
 
 ## Setup
 
