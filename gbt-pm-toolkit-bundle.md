@@ -122,8 +122,6 @@ When these come up, provide both the plain-English version and why the PM should
 - **Latency** — How long the user waits for a response
 - **Grounding** — Making sure the AI's answers are based on real source material, not imagination
 
-<!-- END FILE -->
-
 ---
 
 <!-- FILE: agents/vp-product.md -->
@@ -177,8 +175,6 @@ When given a document to review (PRD, spec, stakeholder update, evaluation plan)
 5. Look for missing risks (compliance, data, multi-market, duty of care)
 6. Check that scope is tight — non-goals are as important as goals
 7. Provide structured feedback: strengths, gaps, recommended next steps
-
-<!-- END FILE -->
 
 ---
 
@@ -275,8 +271,6 @@ When analyzing the TMC/travel tech landscape, consider these key players and dim
 - Append confidence levels to non-obvious claims
 - Date the analysis — competitive intelligence has a short shelf life
 - Keep it scannable — tables for comparisons, bullets for analysis
-
-<!-- END FILE -->
 
 ---
 
@@ -401,8 +395,6 @@ booking tool policy display
 - Include both what users *do* and what they *feel*. Actions without emotions miss half the picture.
 - Rank opportunities by impact, not by ease. Easy wins are nice but shouldn't overshadow high-impact improvements.
 
-<!-- END FILE -->
-
 ---
 
 <!-- FILE: skills/eval-test-cases/SKILL.md -->
@@ -512,8 +504,6 @@ Suggest next steps:
 - "After results come back, use `/stakeholder-update` to summarize findings"
 - "If there are must-pass failures, loop back to Phase 3 (Design) before re-testing"
 
-<!-- END FILE -->
-
 ---
 
 <!-- FILE: skills/gbt-domain-context/SKILL.md -->
@@ -574,8 +564,6 @@ Key competitive dimensions: AI feature maturity, NDC adoption, mobile experience
 ---
 
 *Last reviewed: 2026-03-29. Update quarterly or when significant changes occur.*
-
-<!-- END FILE -->
 
 ---
 
@@ -660,8 +648,6 @@ The Risk Committee exists because GBT operates in a regulated industry (corporat
 ---
 
 *Sourced from GBT AI Playbook materials. Last reviewed: 2026-03-29.*
-
-<!-- END FILE -->
 
 ---
 
@@ -832,8 +818,6 @@ Suggest:
 - Number questions for easy reference during the interview
 - Keep scripts to 8-12 core questions. More than that and you'll rush through them.
 - Mark which questions are must-ask vs. nice-to-ask in case you run short on time
-
-<!-- END FILE -->
 
 ---
 
@@ -1011,8 +995,6 @@ For meetings with Travel Managers or client stakeholders.
 - Keep prep briefs scannable — you'll reference them during the meeting
 - Bold the key messages — if you're scanning during the meeting, these should jump out
 
-<!-- END FILE -->
-
 ---
 
 <!-- FILE: skills/metrics-review/SKILL.md -->
@@ -1149,8 +1131,6 @@ When reviewing GBT products, consider the domain:
 - If a metric is missing its target, don't just report the miss — recommend what to do about it
 - Segment analysis often reveals that an aggregate metric masks important differences
 
-<!-- END FILE -->
-
 ---
 
 <!-- FILE: skills/playbook-author/SKILL.md -->
@@ -1264,8 +1244,6 @@ The playbook is interconnected. When writing, cross-reference related documents:
 - Keep documents self-contained enough to read standalone but connected enough to form a coherent series
 - Include "Part of the GBT AI Playbook series" footer with links to related documents
 
-<!-- END FILE -->
-
 ---
 
 <!-- FILE: skills/pre-mortem/SKILL.md -->
@@ -1375,8 +1353,6 @@ If running this as a team exercise:
 - Be specific about failure scenarios — "users don't adopt it" is too vague. "Travel Managers at companies with fewer than 100 travelers don't see enough value to change their workflow" is actionable.
 - Every risk needs an early warning sign. If you can't spot it coming, you can't react in time.
 - Keep mitigations to actions you can actually take, not things you hope will happen.
-
-<!-- END FILE -->
 
 ---
 
@@ -1516,8 +1492,6 @@ Define custom criteria and weights:
 - If two items score similarly, call it out and explain the tiebreaker.
 - Include the "explicitly deferred" list — it prevents the same items from being re-debated.
 
-<!-- END FILE -->
-
 ---
 
 <!-- FILE: skills/product-brainstorm/SKILL.md -->
@@ -1650,8 +1624,6 @@ Generate 5-8 opportunity areas with 2-3 solution ideas each. Rank by estimated i
 - "We could use AI to..." is a solution looking for a problem. Start with the problem.
 - Include at least one "boring" idea alongside the ambitious ones. Sometimes the highest-impact solution is the simplest.
 
-<!-- END FILE -->
-
 ---
 
 <!-- FILE: skills/release-notes/SKILL.md -->
@@ -1767,8 +1739,6 @@ For sales teams who need to pitch new capabilities. Focus on competitive advanta
 - If there's a breaking change or required action, put it first and make it unmissable.
 - Date everything. Release notes without dates are useless for support and troubleshooting.
 - For major releases, include a "what's not changing" section if users might worry about disruption.
-
-<!-- END FILE -->
 
 ---
 
@@ -1911,8 +1881,6 @@ Best for: When something went wrong and needs root cause analysis.
 - Every action item needs an owner and a due date. Unowned actions don't happen.
 - Keep the retro doc short and scannable. It's a working document, not a report.
 
-<!-- END FILE -->
-
 ---
 
 <!-- FILE: skills/risk-assessment/SKILL.md -->
@@ -2021,8 +1989,6 @@ When assessing GBT AI agents, always consider:
 - Lead with the business case — the committee needs to understand why this project matters before evaluating its risks.
 - Reference evaluation evidence concretely — "8 of 10 test cases passed" not "evaluation went well."
 
-<!-- END FILE -->
-
 ---
 
 <!-- FILE: skills/sprint-planning/SKILL.md -->
@@ -2129,8 +2095,6 @@ Limit to 1-3 action items. More than that and nothing changes.
 - Every item needs a clear owner and clear acceptance criteria
 - Flag items that are underscoped or have hidden complexity
 - For AI projects: always build in time for iteration. A realistic timeline includes at least one loop-back.
-
-<!-- END FILE -->
 
 ---
 
@@ -2242,8 +2206,6 @@ Metrics-first, business impact, minimal detail. Respect their time.
 - Match formality to audience: informal for manager, structured for broader groups
 - If reporting blockers, always include what you've already tried and what you need
 
-<!-- END FILE -->
-
 ---
 
 <!-- FILE: skills/synthesize-research/SKILL.md -->
@@ -2306,8 +2268,6 @@ Adapt based on the type of input:
 - Cite sources for specific claims
 - Append confidence levels to non-obvious claims (e.g. "~70% confidence")
 - Keep it scannable — headers, bullets, bold key terms
-
-<!-- END FILE -->
 
 ---
 
@@ -2430,8 +2390,6 @@ These are starting points — refine with actual research data:
 - Make personas specific enough to be useful: "manages 200-500 travelers" not "manages travelers"
 - Include the "one unexpected insight" — this is what makes personas valuable beyond obvious observations
 
-<!-- END FILE -->
-
 ---
 
 <!-- FILE: skills/write-spec/SKILL.md -->
@@ -2512,8 +2470,3 @@ Unresolved items that need answers before or during development. Tag each with w
 Suggest running the spec past a product leader or VP for review — they'll catch gaps in metrics, edge cases and stakeholder framing.
 
 If the spec is for Phase 5, suggest using `/eval-test-cases` to generate the corresponding evaluation set.
-
-<!-- END FILE -->
-
----
-
