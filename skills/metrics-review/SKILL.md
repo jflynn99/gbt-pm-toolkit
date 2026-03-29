@@ -1,6 +1,6 @@
 ---
 name: metrics-review
-description: Define or review success metrics and KPIs. Use when asked about metrics, KPIs, success criteria, measurement approaches, OKRs or when reviewing whether an AI agent or product feature is performing well.
+description: Define or review success metrics and KPIs. Use when asked about metrics, KPIs, success criteria, measurement approaches, OKRs or when reviewing whether any product feature, platform capability or AI agent is performing well.
 ---
 
 # Metrics Review
@@ -48,7 +48,22 @@ Detailed metrics for investigating changes in L1:
 
 ## Travel/TMC-Specific Metrics
 
-When reviewing GBT AI products, consider:
+When reviewing GBT products, consider the domain:
+
+**Platform/booking metrics:**
+- Booking completion rate (searches that result in a confirmed booking)
+- Time to book (from search to confirmation)
+- Adoption rate (% of eligible travelers using the online tool vs. calling)
+- Policy compliance rate (% of bookings within policy)
+- Mobile vs. desktop usage split
+- Search-to-book conversion by channel
+- Preferred supplier attachment rate
+
+**Traveler experience metrics:**
+- NPS / CSAT by touchpoint (booking, support, post-trip)
+- Self-service resolution rate
+- Average handle time for support interactions
+- Traveler app engagement (sessions per trip)
 
 **AI agent metrics:**
 - Response accuracy rate
@@ -56,18 +71,14 @@ When reviewing GBT AI products, consider:
 - Refusal accuracy (correctly declining out-of-scope requests)
 - Escalation rate (how often the agent hands off to a human)
 - Response latency
-
-**Business impact metrics:**
 - Support ticket deflection rate
 - Cost per interaction (agent vs. human)
-- Traveler satisfaction (CSAT for agent interactions)
-- Policy compliance rate (did the agent enforce policy correctly?)
-- Travel Manager adoption (are TMs using the agent for setup?)
 
 **Guardrail metrics** (must not get worse):
 - Client data isolation (zero cross-client data leaks)
 - Compliance adherence
 - Duty of care accuracy (correct information during disruptions)
+- Booking accuracy (no incorrect itineraries)
 
 ## Output Formats
 

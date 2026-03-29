@@ -1,6 +1,6 @@
 ---
 name: sprint-planning
-description: Plan a sprint or work iteration. Use when asked to plan a sprint, break down work, prioritize tasks for a time period or structure an iteration cycle for an AI project.
+description: Plan a sprint or work iteration. Use when asked to plan a sprint, break down work, prioritize tasks for a time period or structure an iteration cycle for any product or AI project.
 ---
 
 # Sprint Planning
@@ -57,14 +57,21 @@ What the PM specifically owns this sprint:
 | [What could go wrong] | High/Med/Low | [Consequence] | [Plan B] |
 
 ### Lifecycle Checkpoints
-Map sprint activities to the GBT 7-phase lifecycle:
 
-- **If in Phase 1-2 (Understanding):** Sprint should focus on intake form completion, data source identification, stakeholder alignment
-- **If in Phase 3 (Design):** Sprint should focus on Q&A behavior tables, tone guidelines, boundary definitions
-- **If in Phase 4 (Development):** Sprint should focus on answering AI team questions, reviewing checkpoints, preparing eval test cases
-- **If in Phase 5 (Evaluation):** Sprint should focus on running test cases, analyzing results, preparing PM recommendation
-- **If in Phase 6 (Risk Committee):** Sprint should focus on Smartsheet form, presentation prep, risk narrative
-- **If in Phase 7 (Deployment):** Sprint should focus on monitoring setup, feedback collection, iteration planning
+**For AI projects** — map sprint activities to the 7-phase lifecycle:
+- **Phase 1-2 (Understanding):** Intake form, data source identification, stakeholder alignment
+- **Phase 3 (Design):** Q&A behavior tables, tone guidelines, boundary definitions
+- **Phase 4 (Development):** Answering AI team questions, reviewing checkpoints, preparing eval test cases
+- **Phase 5 (Evaluation):** Running test cases, analyzing results, PM recommendation
+- **Phase 6 (Risk Committee):** Smartsheet form, presentation prep, risk narrative
+- **Phase 7 (Deployment):** Monitoring setup, feedback collection, iteration planning
+
+**For platform/product projects** — map to the development stage:
+- **Discovery:** User research, competitive analysis, opportunity sizing
+- **Definition:** Specs, user stories, acceptance criteria, design reviews
+- **Build:** Answering engineering questions, reviewing progress, preparing launch
+- **Launch:** Release notes, stakeholder comms, monitoring, rollback criteria
+- **Iterate:** Usage review, feedback synthesis, next iteration planning
 
 ## Sprint Retrospective Prompts
 

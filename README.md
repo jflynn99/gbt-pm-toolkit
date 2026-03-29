@@ -23,7 +23,18 @@ A set of Claude Code skills for Product Managers at AMEX GBT. These skills accel
 | Sprint Planning | `/sprint-planning` | Plan iterations aligned to the 7-phase lifecycle |
 | Playbook Author | `/playbook-author` | Write AI Playbook content for PMs across the business |
 
-### Advanced Skills
+### General PM Skills
+
+| Skill | Command | What it does |
+|-------|---------|-------------|
+| User Personas | `/user-personas` | Evidence-based personas with JTBD, pain points and behavioral insights |
+| Prioritization | `/prioritization` | Framework selector (RICE, ICE, MoSCoW, Kano) and structured output |
+| Pre-Mortem | `/pre-mortem` | Identify what could go wrong before launch |
+| Release Notes | `/release-notes` | Release comms for users, clients, internal teams and sales |
+| Retrospective | `/retrospective` | Structured retros with multiple formats and facilitation tips |
+| Customer Journey Map | `/customer-journey-map` | Map end-to-end experience across touchpoints |
+
+### Advanced / AI-Specific Skills
 
 | Skill | Command | What it does |
 |-------|---------|-------------|

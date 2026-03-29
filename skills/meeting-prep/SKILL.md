@@ -11,7 +11,7 @@ Generate a structured preparation brief tailored to the meeting type. The goal i
 
 Ask (skip what's already known):
 
-1. **What type of meeting?** — AI Forum session, Risk Committee, manager 1:1, AI team sync, cross-functional, other?
+1. **What type of meeting?** — AI Forum session, Risk Committee, manager 1:1, AI team sync, sprint review, client review, cross-functional, other?
 2. **What's the topic or agenda?** — What needs to be covered?
 3. **What do you want to get out of it?** — Decision, alignment, feedback, approval, information sharing?
 4. **Who's in the room?** — Audience composition affects framing and depth.
@@ -113,6 +113,55 @@ Balance product context with technical respect. Reference lifecycle phases.
 
 ### Upcoming from PM
 - [What you'll deliver next and when]
+```
+
+### Sprint Review / Demo
+Show progress, gather feedback, build alignment.
+
+```
+## Sprint Review — [date]
+
+### Context
+[Remind stakeholders of the sprint goal and what they saw last time]
+
+### Demo
+| Feature/change | What to show | Who demos |
+|---------------|-------------|----------|
+| [Item] | [Key flow to demonstrate] | [Name] |
+
+### Metrics
+[Any early data or feedback on recent launches]
+
+### Feedback wanted
+[Specific areas where you want input — "What feedback do you have on X?" is better than "Any thoughts?"]
+
+### Coming next sprint
+[Preview of upcoming work]
+```
+
+### Client Review
+For meetings with Travel Managers or client stakeholders.
+
+```
+## Client Review: [Client Name] — [date]
+
+### Relationship context
+[Account size, key contacts, recent history, any open issues]
+
+### Agenda
+- [Topics to cover]
+
+### What they care about
+[Their top priorities and pain points — review recent support tickets or account notes]
+
+### What we want to share
+- [Updates, new features, upcoming changes that affect them]
+
+### What we want to learn
+- [Questions about their experience, satisfaction, upcoming needs]
+
+### Sensitive topics
+[Anything that might come up that needs careful handling]
 ```
 
 ## Writing Conventions

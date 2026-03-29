@@ -1,6 +1,6 @@
 ---
 name: write-spec
-description: Draft a PRD, product specification or requirements document. Use when asked to write a spec, PRD, product brief, feature brief or requirements for an AI agent or product feature.
+description: Draft a PRD, product specification or requirements document. Use when asked to write a spec, PRD, product brief, feature brief or requirements for any product feature, platform improvement or AI agent.
 ---
 
 # Write Spec
@@ -14,7 +14,7 @@ Gather context by asking (skip what's already known):
 1. **What problem are we solving?** — The user pain, not the solution. Who's affected and how badly?
 2. **Who's the primary persona?** — Travel Manager, business traveler, arranger, finance, compliance?
 3. **What does success look like?** — Measurable outcomes. How will we know this worked?
-4. **What phase are we in?** — Map to the GBT 7-phase lifecycle. Is this a Phase 1 intake or a Phase 3 design spec?
+4. **What phase are we in?** — For AI projects, map to the 7-phase lifecycle. For platform/product work, note where you are in the development cycle.
 5. **What's out of scope?** — Equally important. What are we deliberately *not* doing?
 
 If the user provides a rough brief or notes, extract answers from those rather than asking redundantly.
@@ -31,10 +31,11 @@ Format: "As a [persona], I want [capability] so that [outcome]."
 Include 3-5 primary stories. For each, add acceptance criteria using Given/When/Then format.
 
 ### 3. Proposed Solution
-High-level approach. What the agent or feature does, not how it's built. Include:
+High-level approach. What the feature does, not how it's built. Include:
 - Key interactions or workflows
-- Behavioral boundaries (what the agent should and shouldn't do)
+- Behavioral boundaries (for AI agents: what it should and shouldn't do)
 - Tone and personality guidelines (for agent specs)
+- UI/UX considerations (for platform features: key screens, flows, states)
 
 ### 4. Success Metrics
 Tie each metric to a user story or problem statement. Include:
@@ -46,11 +47,16 @@ Tie each metric to a user story or problem statement. Include:
 Explicit list of what's included and what's deliberately excluded. Non-goals prevent scope creep and set expectations.
 
 ### 6. Dependencies & Risks
-Data sources needed, team dependencies, compliance considerations, technical unknowns. For AI agents, always include:
+Team dependencies, compliance considerations, technical unknowns. Consider:
+- Integration points with other systems (booking engine, expense, HR)
+- Client configuration or migration needs
+- Multi-market/multi-language implications
+- Duty of care implications (if traveler-facing)
+
+For AI agents, also include:
 - Data source availability and quality
 - Hallucination/accuracy risks
 - Multi-client data isolation
-- Duty of care implications (if traveler-facing)
 
 ### 7. Open Questions
 Unresolved items that need answers before or during development. Tag each with who should answer (PM, AI team, legal, client).
@@ -60,7 +66,8 @@ Unresolved items that need answers before or during development. Tag each with w
 - Bold key terms and metrics
 - Keep sections concise — a good spec is scannable, not exhaustive
 - For AI agent specs: include a behavior table (User says -> Agent should respond)
-- Reference the GBT lifecycle phase this spec feeds into
+- For platform features: include key user flows or state diagrams where helpful
+- Reference the GBT lifecycle phase (AI projects) or development stage (platform work)
 
 ## After Writing
 

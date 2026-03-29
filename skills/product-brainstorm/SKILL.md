@@ -1,11 +1,11 @@
 ---
 name: product-brainstorm
-description: Structured ideation for new AI features, agents or product improvements. Use when brainstorming ideas, exploring opportunities, running a Jobs-to-Be-Done analysis or evaluating whether a feature idea is worth pursuing.
+description: Structured ideation for new features, products or improvements. Use when brainstorming ideas, exploring opportunities, running a Jobs-to-Be-Done analysis or evaluating whether a feature idea is worth pursuing.
 ---
 
 # Product Brainstorm
 
-Structured ideation for new AI features and agents at GBT. Moves beyond "wouldn't it be cool if..." to opportunities grounded in real user needs and feasibility.
+Structured ideation for new features, products and improvements at GBT. Moves beyond "wouldn't it be cool if..." to opportunities grounded in real user needs and feasibility. Works for AI agents, platform features, booking flows, TM tools — any product work.
 
 ## Before Brainstorming
 
@@ -31,10 +31,14 @@ For each persona, map:
 | **Social** | How they want to appear to others | How they manage perceptions | Where they feel exposed or unsupported |
 | **Emotional** | How they want to feel | What gives them confidence today | What causes anxiety or frustration |
 
-**GBT examples:**
+**GBT examples (AI):**
 - TM functional: "Set up travel policies quickly so I can move on to other work"
-- Traveler social: "Appear organized and compliant to my manager"
-- TM emotional: "Feel confident the program is running correctly without checking everything manually"
+- Traveler emotional: "Feel confident the program is running correctly without checking everything manually"
+
+**GBT examples (platform/product):**
+- Traveler functional: "Book a compliant trip in under 3 minutes on my phone"
+- Arranger social: "Look competent when booking for executives — no mistakes"
+- Finance functional: "Reconcile travel spend against budget without manual data wrangling"
 
 ### Opportunity Solution Tree
 Best for: connecting a desired outcome to concrete solutions.
@@ -72,15 +76,18 @@ For every promising idea, run a quick feasibility assessment against the GBT lif
 
 | Question | Answer | Risk level |
 |----------|--------|-----------|
-| **Data:** What data sources would this need? Do they exist? | | |
-| **Accuracy:** What happens if the AI gets it wrong? | | |
+| **Data:** What data or integrations would this need? Do they exist? | | |
 | **Compliance:** Does this touch sensitive data or regulated decisions? | | |
-| **Isolation:** Does this need client-by-client data separation? | | |
-| **Fallback:** What's the human fallback when the AI fails? | | |
-| **Lifecycle fit:** Can this realistically go through all 7 phases? | | |
+| **Multi-market:** Does this need to work across regions, languages or client configurations? | | |
+| **Dependencies:** Does this depend on other teams, vendors or platform changes? | | |
 | **Effort:** Is this a quick win, a quarter-long project or a multi-quarter bet? | | |
 
-Ideas that score high risk on compliance, accuracy or data availability need extra scrutiny — they'll face tough questions at the Risk Committee (Phase 6).
+For AI features, also assess:
+| **Accuracy:** What happens if the AI gets it wrong? | | |
+| **Isolation:** Does this need client-by-client data separation? | | |
+| **Fallback:** What's the human fallback when the AI fails? | | |
+
+Ideas that score high risk on compliance or data need extra scrutiny. AI features will also face the Risk Committee (Phase 6).
 
 ## Output Format
 
