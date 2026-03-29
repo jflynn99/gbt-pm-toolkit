@@ -4,7 +4,7 @@ A set of Claude Code skills for Product Managers at AMEX GBT. These skills accel
 
 ## What's Included
 
-### PM Skills (user-invocable)
+### Core PM Skills
 
 | Skill | Command | What it does |
 |-------|---------|-------------|
@@ -13,6 +13,15 @@ A set of Claude Code skills for Product Managers at AMEX GBT. These skills accel
 | Stakeholder Update | `/stakeholder-update` | Status comms tailored by audience |
 | Synthesize Research | `/synthesize-research` | Research synthesis with "So what for GBT?" lens |
 | Meeting Prep | `/meeting-prep` | Prep briefs for AI Forum, Risk Committee, 1:1s, team syncs |
+
+### Strategic Skills
+
+| Skill | Command | What it does |
+|-------|---------|-------------|
+| Competitive Brief | `/competitive-brief` | Competitive analysis with TMC landscape context |
+| Metrics Review | `/metrics-review` | Define or review KPIs and success metrics |
+| Sprint Planning | `/sprint-planning` | Plan iterations aligned to the 7-phase lifecycle |
+| Playbook Author | `/playbook-author` | Write AI Playbook content for PMs across the business |
 
 ### Background References (auto-loaded)
 
@@ -54,6 +63,10 @@ You don't need to memorize commands. Just describe what you need:
 - "Prep me for the Risk Committee meeting on Thursday"
 - "Summarize these notes and tell me what matters for GBT"
 - "Write an update on the TM Onboarding project for leadership"
+- "How does GBT compare to Navan on AI features?"
+- "Help me define success metrics for the policy Q&A agent"
+- "Plan the next sprint for the TM Onboarding project"
+- "Write a new playbook section on prompt engineering for PMs"
 
 ## Contributing
 
